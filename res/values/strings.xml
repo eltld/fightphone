@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">fightphone</string>
+    <string name="Resolution">分辨率</string>
+    <string name="MaxCpuFreq">最大频率</string>
+    <string name="MinCpuFreq">最小频率</string>
+    <string name="CurCpuFreq">当前频率</string>
+    <string name="CpuName">CPU名字</string>
+    <string name="Memory">总内存</string>
+    <string name="AvailMemory">可用内存</string>
+    <string name="RomMemory">ROM</string>
+    <string name="AvailRomMemory">可用ROM</string>
+    <string name="SDMemory">SD卡</string>
+    <string name="AvailSDMemory">可用SD卡</string>
+    <string name="AndroidVersion">android版本</string>
+    <string name="AndroidImei">Imei号</string>
+    <string name="AndroidIesi">Iesi号</string>
+    <string name="PhoneType">手机型号</string>
+</resources>

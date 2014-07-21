@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Resolution" />
+		<TextView
+	       android:id="@+id/Resolution"
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content"
+	       android:text="TextView" />
+    </LinearLayout>
+	<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/MaxCpuFreq" />
+		<TextView
+	       android:id="@+id/MaxCpuFreq"
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content"
+	       android:text="TextView" />
+    </LinearLayout>
+   <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/MinCpuFreq" />
+		<TextView
+	       android:id="@+id/MinCpuFreq"
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content"
+	       android:text="TextView" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/CurCpuFreq" />
+		<TextView
+	       android:id="@+id/CurCpuFreq"
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content"
+	       android:text="TextView" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/CpuName" />
+		<TextView
+	       android:id="@+id/CpuName"
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content"
+	       android:text="TextView" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Memory" />
+		<TextView
+	       android:id="@+id/Memory"
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content"
+	       android:text="TextView" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/AvailMemory" />
+		<TextView
+	       android:id="@+id/AvailMemory"
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content"
+	       android:text="TextView" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/RomMemory" />
+		<TextView
+	       android:id="@+id/RomMemory"
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content"
+	       android:text="TextView" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/AvailRomMemory" />
+		<TextView
+	       android:id="@+id/AvailRomMemory"
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content"
+	       android:text="TextView" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/SDMemory" />
+		<TextView
+	       android:id="@+id/SDMemory"
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content"
+	       android:text="TextView" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/AvailSDMemory" />
+		<TextView
+	       android:id="@+id/AvailSDMemory"
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content"
+	       android:text="TextView" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/AndroidVersion" />
+		<TextView
+	       android:id="@+id/AndroidVersion"
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content"
+	       android:text="TextView" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/AndroidImei" />
+		<TextView
+	       android:id="@+id/AndroidImei"
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content"
+	       android:text="TextView" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/AndroidIesi" />
+		<TextView
+	       android:id="@+id/AndroidIesi"
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content"
+	       android:text="TextView" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/PhoneType" />
+		<TextView
+	       android:id="@+id/PhoneType"
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content"
+	       android:text="TextView" />
+    </LinearLayout>
+
+</LinearLayout>
